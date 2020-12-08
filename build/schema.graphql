@@ -1,0 +1,20 @@
+type TokenApprove @entity {
+  id: ID!
+  count: BigInt!
+  owner: Bytes! # address of the owner 
+  spender: Bytes! # address of the spender
+}
+
+type TokenHolder @entity {
+  id: ID!
+  address: String!
+  balance: BigInt!
+  # allowance: BigInt!
+  # transactionCount: BigInt!
+}
+
+type TransferCounter @entity {
+  id: ID!
+  count: BigInt!
+  totalTransferred: BigInt!
+}
