@@ -1,6 +1,5 @@
 type TokenApprove @entity {
   id: ID!
-
   count: BigInt!
 
   # Address of the owner
@@ -22,7 +21,6 @@ type TokenHolder @entity {
 
 type TransferCounter @entity {
   id: ID!
-
   count: BigInt!
 
   # Total amount transfered
