@@ -1,6 +1,6 @@
 specVersion: 0.0.2
 description: YFV Yield Farming
-repository: https://github.com/redallica/Subgraph_YFV
+repository: https://github.com/redallica/subgraph-for-YFV
 schema:
   file: ./schema.graphql
 dataSources:
